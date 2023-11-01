@@ -1,0 +1,44 @@
+.canvas{
+    width:250px;
+    height: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 262px;
+    top: 20px;
+    bottom: 0;
+    /*.blocker{
+        height: 450px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 262px;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.2);
+        transition: .5s;
+    }*/
+    .drawTxt{
+        position: absolute;
+        top:-70px;
+        left: -15px;
+        margin-top: 5px;
+        padding: 3px;
+        width: 280px;
+        height: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tile{
+    position: relative;
+    width:50px;
+    height: 50px;
+    display: inline-block;
+    margin: -2px;
+    border: 2px solid #919191;
+}
